@@ -1,4 +1,4 @@
-package MadsLibrary;
+package madslibrary;
 
 public class Book {
 	
@@ -26,13 +26,13 @@ public class Book {
 	}
 
 
-	public int getId() {
+	public int getBookId() {
 		
 		return this.bookId ;
 	}
 
 
-	public String getName() {
+	public String getBookName() {
 	
 		return this.bookName;
 	}
